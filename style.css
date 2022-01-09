@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121212;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.container{
+
+}
+.banner{
+    display: flex;
+    height: 100vh;
+}
+.banner-left{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex: 1;
+
+}
+.banner-title{
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.banner-title::before{
+    content: 'Animation Demo..';
+    position: absolute;
+    top:0;
+    left: 0;
+    color: turquoise;
+    animation: demo 3s linear infinite;
+
+}
+.banner-text{
+
+}
+.banner-btn{
+
+}
+.banner-right img{ 
+    border: turquoise solid 10px;
+}
+.banner-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes demo {
+    0% {
+        content: 'A|';
+    }
+
+    4% {
+        content: 'An|';
+    }
+
+    8% {
+        content: 'Ani|';
+    }
+
+    12% {
+        content: 'Anim|';
+    }
+
+    16% {
+        content: 'Anima|';
+    }
+
+    20% {
+        content: 'Animat|';
+    }
+
+    24% {
+        content: 'Animati|';
+    }
+
+    28% {
+        content: 'Animatio|';
+    }
+
+    32% {
+        content: 'Animation|';
+    }
+
+    36% {
+        content: 'Animation |';
+    }
+
+    40% {
+        content: 'Animation D|';
+    }
+
+    44% {
+        content: 'Animation De|';
+    }
+
+    48% {
+        content: 'Animation Dem|';
+    }
+
+    52% {
+        content: 'Animation Demo|';
+    }
+
+    56% {
+        content: 'Animation Demo.|';
+    }
+
+    60% {
+        content: 'Animation Demo..|';
+    }
+
+    64%,
+    83% {
+        content: 'Animation Demo..|';
+    }
+
+    84% {
+        content: 'Animation Demo.|';
+    }
+
+    85% {
+        content: 'Animation Demo|';
+    }
+
+    86% {
+        content: 'Animation Dem|';
+    }
+
+    87% {
+        content: 'Animation De|';
+    }
+
+    88% {
+        content: 'Animation |';
+    }
+
+    89% {
+        content: 'Animation|';
+    }
+
+    90% {
+        content: 'Animatio|';
+    }
+
+    91% {
+        content: 'Animati|';
+    }
+
+    92% {
+        content: 'Animat|';
+    }
+
+    93% {
+        content: 'Anima|';
+    }
+
+    94% {
+        content: 'Anim|';
+    }
+
+    95% {
+        content: 'Ani|';
+    }
+
+    96% {
+        content: 'An|';
+    }
+
+    97% {
+        content: 'a|';
+    }
+
+    98% {
+        content: '|';
+    }
+
+    99% {
+        content: '|';
+    }
+
+    100% {
+        content: '|';
+    }
+}
